@@ -1,0 +1,21 @@
+*, 
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
