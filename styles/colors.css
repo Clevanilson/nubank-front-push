@@ -1,0 +1,46 @@
+:root {
+  --primary-normal: #82269E;
+  --primary-dark: #701F88;
+  --primary-light: #9C4FB4;
+
+  --secondary-normal: #A950C4;
+  --secondary-dark: #9142A8;
+  --secondary-light: BB71D2;
+
+  --black-normal: #232224;
+  --black-dark: #161617;
+  --black-light: #353436;
+
+  --white-normal: #F7F2FA;
+  --white-dark: #EDEAEF;
+  --white-light: #FEFBFF;
+
+  --gray-1: #454446;
+  --gray-2: #555456;
+  --gray-3: #666566;
+  --gray-4: #767576;
+  --gray-5: #868587;
+  --gray-6: #969597;
+  --gray-7: #A6A6A8;
+
+  --red-normal: #EB3D3D;
+  --red-dark: #D03333;
+  --red-light: #F05454;
+
+  --green-normal: #32D947;
+  --grenn-dark: #28BB49;
+  --green-light: #50E170;
+
+  --yellow-normal: #FFCE52;
+  --yellow-dark: #D9B043;
+  --yellow-light: #FFD76B;
+
+  --gradient-1: linear-gradient(220deg, var(--secondary-normal) 14.5%, var(--primary-normal) 85%);
+
+  --box-shadow-color-1: 169, 80, 197;
+  --box-shadow-1:
+    0 5rem 8rem rgba(var(--box-shadow-color-1), 0.08),
+    0 1.6rem 2.4rem rgba(var(--box-shadow-color-1), 0.05),
+    0 0.4rem 1.2rem rgba(var(--box-shadow-color-1), 0.04),
+    0 0.2rem  0.4rem rgba(var(--box-shadow-color-1), 0.02);
+}
